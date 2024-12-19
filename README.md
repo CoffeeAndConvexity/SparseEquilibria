@@ -19,8 +19,6 @@ Our Pursuit-Evasion game is designed on the Columbia University campus path netw
 This game is generated using the script `university_patrolling_game.py`. This script was created by *Cerny et al. Layered Graph Security Games (2024)*. This generator supports the use of real-world maps via the `osmnx` library. 
 We solve this game using the mip algorithm in `patralling_exp_vanilla.py`, and using the cartesian_mip in `patrolling_exp_structured`. We also solve the game using the *lgsg solver* from Cerny et al. in `lgsg_solver_exp`. 
 
-## Air defense battery placements
-
 # Dependencies
 - Python 
 - `numpy`: for numerical computations. Install via:
