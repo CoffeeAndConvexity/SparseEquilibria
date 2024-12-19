@@ -16,7 +16,7 @@ Random zero-sum and general-sum games are the simplest of the implemented games.
 ## Patrolling games (Pursuit-Evasion)
 Our Pursuit-Evasion game is designed on the Columbia University campus path network and models a finite-horizon scenario where a defender (pursuer) tries to capture an attacker (evader). Each player starts at one of several potential initial locations on campus corresponding to vertices, and selects a path of specific length (also known as depth); the evader is apprehended if and only if the chosen paths share an edge. 
 
-This game is generated using the script `university_patrolling_game.py`. This script was created by *Cerny et al. Layered Graph Security Games (2024)* (see https://github.com/CoffeeAndConvexity/LayeredGraphGamesGenerators). 
+This game is generated using the script `university_patrolling_game.py`. This script was created by *Cerny et al. Layered Graph Security Games (2024)*, see https://github.com/CoffeeAndConvexity/LayeredGraphGamesGenerators. 
 
 We solve this game using the MIP algorithm in `patralling_exp_vanilla.py`, and using the cartesian_mip in `patrolling_exp_structured`. We also solve the game using the *lgsg solver* from Cerny et al. in `lgsg_solver_exp`. 
 
