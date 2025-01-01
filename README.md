@@ -45,6 +45,8 @@ Afiouni, S., Černý, J., Ling, C. K., & Kroer, C. (2024). Commitment to Sparse 
  year = {2025}
 }
 ```
+Full paper with the entire appendix available on [arxiv](https://arxiv.org/abs/2412.14337).
+
 
 
 
