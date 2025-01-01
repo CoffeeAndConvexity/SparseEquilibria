@@ -33,6 +33,7 @@ pip install osmnx
 
 # Citation
 If you use this repository, please cite our paper:
+
 Afiouni, S., Černý, J., Ling, C. K., & Kroer, C. (2024). Commitment to Sparse Strategies in Two-Player Games. arXiv preprint arXiv:2412.14337.
 ```
 @inproceedings{afiouni2025commitment,
